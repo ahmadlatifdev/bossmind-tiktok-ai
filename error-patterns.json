@@ -1,0 +1,15 @@
+{
+  "project": "bossmind-tiktok-ai",
+  "patterns": [
+    "missing-file",
+    "broken-import",
+    "route-collision",
+    "deploy-failure",
+    "env-missing",
+    "schema-error",
+    "stale-ui",
+    "partial-code-leak"
+  ],
+  "status": "ACTIVE",
+  "updated_at": "2026-05-03T01:25:49"
+}
