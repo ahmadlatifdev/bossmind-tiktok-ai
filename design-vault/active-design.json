@@ -1,0 +1,15 @@
+{
+  "active_source": "working-copy-only",
+  "active_public_domain": "tiktok-ai",
+  "firebase_site_id": "",
+  "deployment_blocked_from": [
+    "design-vault/originals/design-01-original-client-interface",
+    "design-vault/originals/design-02-original-luxury-interface",
+    "design-vault/originals/design-03-original-conversion-interface"
+  ],
+  "deployment_allowed_from": [
+    "design-vault/working-copies/design-01-working-copy",
+    "design-vault/working-copies/design-02-working-copy",
+    "design-vault/working-copies/design-03-working-copy"
+  ]
+}

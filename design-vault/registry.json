@@ -1,0 +1,51 @@
+{
+  "system": "BossMind 2026 Three Original Design Vault",
+  "project": "bossmind-tiktok-ai",
+  "firebase_project_id": "",
+  "originals_policy": {
+    "overwrite_allowed": false,
+    "deployable": false,
+    "rename_allowed": false,
+    "delete_allowed": false,
+    "editable": false
+  },
+  "public_domain": "tiktok-ai",
+  "firebase_site_id": "",
+  "working_copy_policy": {
+    "must_keep_original_reference": true,
+    "editable": true,
+    "deployable_after_approval": true
+  },
+  "blocked_actions": [
+    "edit_original_directly",
+    "delete_original",
+    "rename_original",
+    "overwrite_original",
+    "deploy_original_directly",
+    "replace_original_without_approval"
+  ],
+  "status": "initialized",
+  "designs": [
+    {
+      "id": "design-01",
+      "original_locked": true,
+      "working_copy_path": "design-vault/working-copies/design-01-working-copy",
+      "purpose": "Clean professional client interface",
+      "original_path": "design-vault/originals/design-01-original-client-interface"
+    },
+    {
+      "id": "design-02",
+      "original_locked": true,
+      "working_copy_path": "design-vault/working-copies/design-02-working-copy",
+      "purpose": "Luxury black/gold interface",
+      "original_path": "design-vault/originals/design-02-original-luxury-interface"
+    },
+    {
+      "id": "design-03",
+      "original_locked": true,
+      "working_copy_path": "design-vault/working-copies/design-03-working-copy",
+      "purpose": "Conversion-optimised sales interface",
+      "original_path": "design-vault/originals/design-03-original-conversion-interface"
+    }
+  ]
+}

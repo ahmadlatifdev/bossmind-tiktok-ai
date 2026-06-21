@@ -1,0 +1,41 @@
+{
+  "working_copies": {
+    "design-03-working-copy": {
+      "editable": true,
+      "approved_for_deployment": false
+    },
+    "design-01-working-copy": {
+      "editable": true,
+      "approved_for_deployment": false
+    },
+    "design-02-working-copy": {
+      "editable": true,
+      "approved_for_deployment": true
+    }
+  },
+  "approval_required_for": [
+    "create_original_design",
+    "lock_original_design",
+    "create_working_copy",
+    "update_working_copy",
+    "promote_working_copy_to_deployment",
+    "replace_live_interface"
+  ],
+  "originals": {
+    "design-02-original-luxury-interface": {
+      "approved": false,
+      "locked": true,
+      "editable": false
+    },
+    "design-03-original-conversion-interface": {
+      "approved": false,
+      "locked": true,
+      "editable": false
+    },
+    "design-01-original-client-interface": {
+      "approved": false,
+      "locked": true,
+      "editable": false
+    }
+  }
+}
