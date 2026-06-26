@@ -1,21 +1,35 @@
 {
-  "system": "BossMind 2026 Three Original Design Vault",
-  "project": "bossmind-tiktok-ai",
-  "firebase_project_id": "",
   "originals_policy": {
+    "delete_allowed": false,
+    "editable": false,
     "overwrite_allowed": false,
     "deployable": false,
-    "rename_allowed": false,
-    "delete_allowed": false,
-    "editable": false
+    "rename_allowed": false
   },
-  "public_domain": "tiktok-ai",
-  "firebase_site_id": "",
-  "working_copy_policy": {
-    "must_keep_original_reference": true,
-    "editable": true,
-    "deployable_after_approval": true
-  },
+  "designs": [
+    {
+      "id": "design-01",
+      "working_copy_path": "design-vault/working-copies/design-01-working-copy",
+      "original_path": "design-vault/originals/design-01-original-client-interface",
+      "original_locked": true,
+      "purpose": "Clean professional client interface"
+    },
+    {
+      "id": "design-02",
+      "working_copy_path": "design-vault/working-copies/design-02-working-copy",
+      "original_path": "design-vault/originals/design-02-original-luxury-interface",
+      "original_locked": true,
+      "purpose": "Luxury black/gold interface"
+    },
+    {
+      "id": "design-03",
+      "working_copy_path": "design-vault/working-copies/design-03-working-copy",
+      "original_path": "design-vault/originals/design-03-original-conversion-interface",
+      "original_locked": true,
+      "purpose": "Conversion-optimised sales interface"
+    }
+  ],
+  "status": "initialized",
   "blocked_actions": [
     "edit_original_directly",
     "delete_original",
@@ -24,28 +38,14 @@
     "deploy_original_directly",
     "replace_original_without_approval"
   ],
-  "status": "initialized",
-  "designs": [
-    {
-      "id": "design-01",
-      "original_locked": true,
-      "working_copy_path": "design-vault/working-copies/design-01-working-copy",
-      "purpose": "Clean professional client interface",
-      "original_path": "design-vault/originals/design-01-original-client-interface"
-    },
-    {
-      "id": "design-02",
-      "original_locked": true,
-      "working_copy_path": "design-vault/working-copies/design-02-working-copy",
-      "purpose": "Luxury black/gold interface",
-      "original_path": "design-vault/originals/design-02-original-luxury-interface"
-    },
-    {
-      "id": "design-03",
-      "original_locked": true,
-      "working_copy_path": "design-vault/working-copies/design-03-working-copy",
-      "purpose": "Conversion-optimised sales interface",
-      "original_path": "design-vault/originals/design-03-original-conversion-interface"
-    }
-  ]
+  "firebase_site_id": "client-resumora-live",
+  "project": "bossmind-tiktok-ai",
+  "public_domain": "tiktok-ai",
+  "firebase_project_id": "resumora-live",
+  "system": "BossMind 2026 Three Original Design Vault",
+  "working_copy_policy": {
+    "editable": true,
+    "must_keep_original_reference": true,
+    "deployable_after_approval": true
+  }
 }
