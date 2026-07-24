@@ -1,0 +1,7 @@
+{
+  "projectId": "tiktok-ai",
+  "deltaOnly": true,
+  "blockExternalChatGptUi": true,
+  "modelStatementIsNotProof": true,
+  "requireValidationBeforeComplete": true
+}
