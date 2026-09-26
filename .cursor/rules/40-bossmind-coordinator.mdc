@@ -1,0 +1,14 @@
+---
+description: BossMind Master AI Coordinator pointer (Cursor Projects)
+alwaysApply: true
+---
+
+# BossMind Coordinator
+
+This repository is one of five isolated BossMind projects.
+
+- Shared memory authority: Neon `bossmind_shared` (not Cursor chat context)
+- Offline queue: PGlite (hub local-memory path)
+- Coordinator hub docs (Windows): `D:\BossMind\PROJECT_COORDINATOR.md`
+- Do not enable production memory delivery as part of coordinator setup
+- Do not merge code with Resumora or other BossMind projects
